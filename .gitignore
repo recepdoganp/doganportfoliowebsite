@@ -1,0 +1,3 @@
+# specify files folder that we dont want to push to github
+
+node_modules
