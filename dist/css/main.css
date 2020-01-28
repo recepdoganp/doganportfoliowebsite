@@ -367,7 +367,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: "name email" "subject phone" "message message" "capcha capcha";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .text-input {
@@ -393,6 +393,8 @@ img {
   #contact-a .text-fields .text-input {
     padding: 0.5rem 1rem;
     resize: none; }
+  #contact-a .text-fields .my-2 {
+    grid-area: capcha; }
 
 #contact-a button[type="submit"] {
   width: 50%;
@@ -471,7 +473,7 @@ img {
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+    grid-template-areas: "name" "subject" "email" "phone" "message" "capcha"; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
